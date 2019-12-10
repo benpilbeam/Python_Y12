@@ -162,7 +162,7 @@ def main():
                     project_id = create_project(conn, project)
  
                     # tasks
-                    task_1 = ('Analyze the requirements of the app', 2, 1, project_id, '2015-01-01', '2015-01-02')
+                    task_1 = ('Analyze the requirements of the app', 2, 1, project_id, '2019-01-01', '2015-01-02')
                     task_2 = ('Confirm with user about the top requirements', 3, 1, project_id, '2015-01-03', '2015-01-05')
  
                     # create tasks
